@@ -1,0 +1,10 @@
+In this part we will find the parts that are changing and then extract them out.
+Take what varies and encapsulate them so that it wont affect the rest of your code 
+
+Ideally what should happen is that you make a new package with the behaviours. The
+behaviours will implement an interface("the term is defined differently in the book").
+Now in the Duck class you will make instances variables with the types of those interfaces.
+Now when you extend the duck class the member variables will also be inherited by those 
+instances. So in the constructor of the subclass all we need to do is to set the 
+memeber variable.
+

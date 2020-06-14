@@ -1,0 +1,5 @@
+So here we have an interface. But the issue is that there is duplicated code.
+And that means
+that whenever you need to modify a behavior, you’re forced to
+track down and change it in all the different subclasses where that
+behavior is defined, probably introducing new bugs along the way!
