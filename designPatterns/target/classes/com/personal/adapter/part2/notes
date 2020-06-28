@@ -1,0 +1,3 @@
+Note that when the target interface has a method that the adaptee does not you need to deal with 
+that properly. You should throw a run time error. You will need to document your adapters
+properly so that the clients do not make these mistakes in the future.

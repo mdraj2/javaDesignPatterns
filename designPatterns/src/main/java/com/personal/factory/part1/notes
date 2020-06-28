@@ -1,0 +1,8 @@
+This pattern is about loosening the couping.
+
+In an interface it's a class who is publicly accessible methods and variables. The author says that Duck duck = new MallardDuck()
+is coding to an implementation. Is this because that Duck itself is a concrete implementation?
+
+Anyways, looking at page113 of head first we are violating the open close principle because we need to change it when
+we are adding or removing orders.
+

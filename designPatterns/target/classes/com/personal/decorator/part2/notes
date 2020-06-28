@@ -1,0 +1,14 @@
+Here we will change the beverage to a base class and use booleans to keep track of the codiments
+.The cost of the codiments will be done the base class instead.
+
+In this example you can see that the condiment cost is done by the super class and the base costing
+is done by the implementation of the subclass. But you can see immediately why this pattern is not
+good. It violates many design principles.
+
+From the point of liscovs subsitution it looks quite bad. Also from interface seggreation it 
+looks quite bad aswell. And from open close it looks quite bad aswell. Additionally it is not 
+single responsiblity either.
+
+Note that with open close principle you dont want to apply this principle everywhere. Try to find
+places in the code that will most likely change and try to use open close princple there.
+So for example,

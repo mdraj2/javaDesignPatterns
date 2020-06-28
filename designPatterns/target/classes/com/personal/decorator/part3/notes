@@ -1,0 +1,8 @@
+TODO.
+
+new resposinlities
+but remember that you should not introduce behaviours that are not part of the main interface
+in the decorators. This could lead to issues with type down the line if you are not careful.
+But this was not stated explicitly in the books, so verify if this is correct. Also note that
+with decorator pattern it is almost like recursion and you can change the values as the as you 
+pass in the input.

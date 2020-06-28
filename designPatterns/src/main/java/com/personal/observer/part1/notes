@@ -1,0 +1,8 @@
+in this pattern you have a subject and many different observers
+
+The observer pattern define a one to many dependency between objects and when one object changes state
+all the other objects will be notified.
+
+There are different forms of variations of this patterns 
+
+

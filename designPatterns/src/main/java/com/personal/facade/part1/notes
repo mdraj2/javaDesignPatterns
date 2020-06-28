@@ -1,0 +1,26 @@
+The facade pattern lets you reduce the complexity of working with many different interfaces.
+The facade pattern has objects that will execute when you run that interface the facade.
+
+Note that the facade pattern does not encapsulate. That means that the subsystem classes functionality
+is still available. 
+
+The facade pattern is quite useful in decoupling and you could use a factory to build the 
+components and provide the facade that will do the job.
+
+One of the main advantage of the facade pattern in that it allows us to avoid tight coupling between 
+the client and the subsystems.
+
+The Facade Pattern provides a unified interface to a set of interfaces in a subsytem. Facade defines 
+a higher level interface that makes the subsystem easier to use.
+
+The facade pattern introduces the design principle of the least knowledge. Basically what
+it means is that we need to be careful with the number of classes that we interact with.
+
+What this also means is that we should prevent ourselves from creating design that have
+a large number of classes coupled together so that changes inone part of the system cascades to 
+other parts.
+
+So one thing that this means is that our object who is invoking the method must know 
+about that object. So calling methods on that object itself is ok. So is any objects that is 
+passed a parameter to the method. This also includes any objects that this object makes.
+So basically we should not call methods on objects that were returned from calling other methods.

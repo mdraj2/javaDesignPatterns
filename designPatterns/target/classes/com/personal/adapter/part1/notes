@@ -1,0 +1,41 @@
+The point of the adapter pattern is to take one interface and adapt to the client that is expecting it 
+The adapter pattern is quite useful when you have an existing system that is trying to support 
+new classes. This is true when you have new vendors.
+
+You will need to adapter that class into the one you are expecting so that it works better.
+
+Now one thing to remember here is that we are wrinting the adapter class but it could be that the 
+adapter class itself give the adapater.
+
+In this example. the class that is runing the main function is the client. The function testduck 
+is the actualy client that uses the duck interface. It uses a Duck interface to make the 
+requests so the adapter is the TurkeyAdapter and the adaptee is the Turket interface.
+
+So rememeber that the client will be calling the adapter methods using the target interface.
+Inside the adapter the adapter will be doing the calls for the adaptee methods so that it 
+looks like if it was an duck object.
+
+Currently you are using the Interfaces, but this could work with the strategy pattern where
+you have the duck as a superclass and but then you need to make sure that the adapter has the 
+correct stratergy dependencies otherwise it would not work properly.
+
+The Facade pattern unlike the adapter pattern holds more that two adaptees so that is different to 
+the adapter pattern. This pattern only holds one adaptee. 
+
+If you have both new and old part consider making two way adapter that supports both interfaces by
+implementing both interfaces.
+
+The fomal definition is 
+The Adapter Pattern converts the interface of a class
+into another interface the clients expect. Adapter lets
+classes work together that couldn’t otherwise because of
+incompatible interfaces.
+
+There are two kinds of adapters the object adapters and class adapters. This example was object adapters.
+You cannot do class adapter with java because multiple inheritence is not allowed
+
+One advantage of the object adapter is that it is based of composition so you can use subclasses
+of the adaptee but you cannot do that in the class adapter because the adapter itself is a subclass.
+
+But on the fill side with class adapter you do not need to reimplement the entire adaptee. Comeback
+to page 247 to understand this better

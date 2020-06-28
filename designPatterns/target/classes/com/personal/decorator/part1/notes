@@ -1,0 +1,13 @@
+This pattern will help you decorate an object at run time instead of compile time
+This pattern encourages object composition instead of inheritence.
+
+One advantage of this pattern is that you will be able to change or give new 
+responsibilities of a class without changing the underlying class itself
+
+In here we show what you should not do.
+
+Lets say in this folder we have more than decaf which is the base case. We also have decaf with 
+whipped cream and chocolate and we do this for every class. This would be a massive pain.
+The questions then becomes how do we solve this sort of issue.
+
+We are not favouring composition over inheritence and we are not encapsulating what is changing 
